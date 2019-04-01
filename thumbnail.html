@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .thumbnail{
+            margin:10px;
+            width:150px;
+            height:150px;
+            background-size: cover;
+            /* background-size: contain; */
+            background-repeat: no-repeat;
+            background-position: center center;
+            border:5px solid black;
+        }
+        .thumbnail.round{
+            border-radius: 30px;
+        }
+        .thumbnail.circle{
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="thumbnail " style="background-image:url('img/mountain.jpg')">
+
+    </div>
+    <div class="thumbnail round" style="background-image:url('img/mountain.jpg')">
+
+    </div>
+    <div class="thumbnail circle" style="background-image:url('img/mountain.jpg')">
+
+    </div>
+    <img src="img/mountain.jpg" alt="">
+</body>
+</html>

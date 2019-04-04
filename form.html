@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+    <form action="url" method="GET">
+        아이디:
+        <input type="text" name="id" value="skc" disabled="disabled" readonly="re">
+        <br>
+        비밀번호:
+        <input type="password" name="password">
+        <br>
+        히든:
+        <input type="hidden" name="language" value="ko">
+        <br>
+        Text Area:
+        <textarea name="value" value="ko" rows="5" cols="20">기본밸류</textarea>
+        <br>
+        radio 관심사:<br/>
+        <input type="radio" name="radio1" value="programming" checked="checked">프로그래밍<br>
+        <input type="radio" name="radio1" value="design">디자인<br>
+        <input type="radio" name="radio1" value="planning">기획<br>
+        <br>
+        콤보박스<br>
+        <select name="combobox" >
+            <option value="programming">프로그래밍</option>
+            <option value="design" selected="selected">디자인</option>
+            <option value="planning">기획</option>
+        </select>
+        
+        <br>
+        radio 관심사:<br/>
+        <input type="checkbox" name="checkbox1[]" value="programming" checked="checked">프로그래밍<br>
+        <input type="checkbox" name="checkbox1[]" value="design">디자인<br>
+        <input type="checkbox" name="checkbox1[]" value="planning">기획<br>
+        <br>
+        <input type="file" name="filename"><br>
+        <input type="submit" value="확인">
+    </form>    
+</body>
+</html>

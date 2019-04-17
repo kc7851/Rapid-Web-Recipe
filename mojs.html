@@ -11,10 +11,27 @@
     <script src="https://cdn.jsdelivr.net/npm/mo-js@latest/build/mo.min.js"></script>
     <!-- <script src="http://cdn.jsdelivr.net/npm/mojs/latest/mo.min.js"></script> -->
     <script>
-        new mojs.Shape({
+        var c1 = new mojs.Shape({
             shape: 'circle',
-            isShowStart: true
+            radius: {0:'rand(10,50)'},
+            scale: 1,
+            left:0,
+            top:0,
+            x:0,
+            y:0,
+            fill:'tomato',
+            stroke:'red',
+            strokeWidth:'rand(3,10)',
+            duration:'rand(200,2000)',
+            delay:0,
+            // isShowStart: true
         });
+        document.addEventListener('click', function(e){
+            c1.tune({
+                x:e.pageX,
+                y:e.pageY
+            }).replay();
+        })
     </script>
 </body>
 </html>

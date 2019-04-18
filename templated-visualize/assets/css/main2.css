@@ -9,7 +9,11 @@
 }
 body {
     /* background-color: #000; */
-    background-image: url("../../images/bg.jpg");
+    /* 저장된 파일 쓰는방법 */
+    /* background-image: url("../../images/bg.jpg"); */
+    /* 웹주소로 쓰는방법 */
+    background-image: url("https://cdn-images-1.medium.com/max/1600/0*I-sI3u34g0ydRqyA");
+    
     background-size: cover;
     background-position: top center;
     font-family: 'Source Sans Pro', sans-serif;

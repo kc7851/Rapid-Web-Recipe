@@ -1,0 +1,48 @@
+body {
+    background-image: url('https://source.unsplash.com/category/nature/1600x900');
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    /* width: 20%; */
+    max-width: 20rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: 200;
+}
+
+.control{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.control ul{
+    list-style: none;
+}
+.control li{
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+.control>*{
+    display: inline-block;
+}
+.control a{
+    color: white;
+    text-decoration: none;
+}
+.control .player{
+    position: absolute;
+    right: 1rem;
+}
